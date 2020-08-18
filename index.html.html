@@ -1,0 +1,156 @@
+<html>
+
+<body>
+    <title>Home Made Pizza</title>
+    <style>
+        body{
+            background-image: url('image.jpg');
+            background-repeat: no-repeat;
+
+        }
+        #div1{
+		width: 470px;
+		float: left;
+		margin: 0px;
+		padding: 10px;
+		position: left;
+		color: rgb(230, 117, 24);
+		font-family: Geneva;
+		}
+		
+		#block1{
+		background-color:whitesmoke;
+		height: 650px;
+		padding: 8px;
+		position: relative;
+		}
+        
+    </style>
+    <script language="javascript">
+        function check() {
+            if ((f1.t1.value == "") || (f1.t2.value == "") || (f1.t3.value == "") || (f1.t4.value == "")) {
+                alert("null not allow");
+                return false;
+            }
+            else if (f1.t2.value != f1.t3.value) {
+                alert("password mismatched");
+                return false;
+            }
+            return true;
+        }
+    </script>
+    <div id="div1">
+        <div id="block1">
+
+    <form name="f1" action="home.html" onsubmit="return check()">
+        <center><b>
+                <font color="brown"><u>Welcome to Home Made Pizza Website</center></b></font color></u>
+        <p>
+        <p>
+            <center><img src="Pizza.jpg" height=300 width=300 border=3></center>
+        <p>
+            <center>
+
+                <CENTER>First Name: <input type="Text" value="" size="15" name="t1"> Lastname: <input type="Text"
+                        value="" size="16">
+                    <p>
+
+                        Enter email id: <input type="Email" size="45"><br>
+                        <center></center>
+
+                        Country: <input type="Text" value="" size="13" name="t4">
+                    
+                        Phone no.: <input type="Number" value="" size="10">
+                    <p>
+                        <center></center>
+
+                        Password: <input type="password" value="" size="49" name="t2">
+                    <p>
+
+                        Re-entre password: <input type="password" value="" size="40" name="t3"><br>
+                    <p>
+
+
+                        <center>
+                            Date of birth: Year
+                            <select>
+                                <option>1995</option>
+                                <option>1996</option>
+                                <option>1997</option>
+                                <option>1998</option>
+                                <option>1999</option>
+                                <option>2000</option>
+                                <option>2001</option>
+                                <option>2002</option>
+                                <option>2003</option>
+                                <option>2004</option>
+                                <option>2005</option>
+                                <option>2006</option>
+                                <option>2007</option>
+                                <option>2008</option>
+                                <option>2009</option>
+                                <option>2010</option>
+                            </select>
+
+                            Month
+                            <select>
+                                <option>JAN</option>
+                                <option>FEB</option>
+                                <option>MAR</option>
+                                <option>JUN</option>
+                                <option>JUL</option>
+                                <option>AUG</option>
+                                <option>SEPT</option>
+                                <option>OCT</option>
+                                <option>NOV</option>
+                                <option>DEC</option>
+                            </select>
+
+                            Day
+                            <select>
+                                <option>01</option>
+                                <option>02</option>
+                                <option>03</option>
+                                <option>04</option>
+                                <option>05</option>
+                                <option>06</option>
+                                <option>07</option>
+                                <option>08</option>
+                                <option>09</option>
+                                <option>10</option>
+                                <option>11</option>
+                                <option>12</option>
+                                <option>13</option>
+                                <option>14</option>
+                                <option>15</option>
+                                <option>16</option>
+                                <option>17</option>
+                                <option>18</option>
+                                <option>19</option>
+                                <option>20</option>
+                                <option>21</option>
+                                <option>22</option>
+                                <option>23</option>
+                                <option>24</option>
+                                <option>25</option>
+                                <option>26</option>
+                                <option>27</option>
+                                <option>28</option>
+                                <option>29</option>
+                                <option>30</option>
+                                <option>31</option>
+                            </select><br>
+                            <p>
+
+
+                                <right>Gender: <input type="radio" name="option"> male
+                                    <input type="radio" name="option" checked> female </right>
+                            <p>
+
+                                <input type="submit" value="sign up" onClick="location.href='home.html'">
+                        </center>
+    </form>
+    </div>
+    </div>
+</body>
+</html>

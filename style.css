@@ -1,0 +1,17 @@
+
+h1,h2{
+color: black;
+text-align: left;
+font-style: bold;
+}
+
+#div1{
+width: 30%;
+border: 3px solid black;
+background: yellow;
+color: red;
+margin: 0px 0px 0px 0px;
+}
+.bold{
+text-decoration="bold";
+}
